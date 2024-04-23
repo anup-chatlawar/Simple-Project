@@ -11,7 +11,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: skyblue;
+    background-color: #BED7DC;
 }
 
 .container {
@@ -66,4 +66,13 @@ button {
 
 a:hover { 
     text-decoration: underline;
+}
+
+.footer { 
+    position: absolute; 
+    bottom: 0; 
+    left: 10; 
+    background-color: whitesmoke;
+    color: coral;
+    font-weight: 700;
 }
