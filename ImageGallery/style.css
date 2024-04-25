@@ -34,38 +34,51 @@ html,body{
 	background-position: center;
 	background-size: cover;
 	background-repeat: none;
+	transition: flex 0.8s ease;
+
+	&:hover{
+	  flex: 5;
+	}
   }
   
   .item-1 { 
-	background-image: url('https://unsplash.com/photos/a-large-waterfall-with-snow-on-the-ground-DylWxXs6Vlo');
+	background-image: url('https://source.unsplash.com/XClNDg9Z9Ag');
   }
   
   .item-2 { 
-	background-image: url('https://unsplash.com/photos/a-large-building-with-a-glass-roof-and-columns-52TNzHnrkIg');
+	background-image: url('https://source.unsplash.com/Ax6C66mqrG8');
   }
   
   .item-3 { 
-	background-image: url('https://unsplash.com/photos/a-building-with-a-subway-sign-on-the-front-of-it-3PDrWzk7aAs');
+	background-image: url('https://source.unsplash.com/Jne0wQFh2tA');
   }
   
   .item-4 { 
-	background-image: url('https://unsplash.com/photos/a-couple-of-yellow-flowers-sitting-on-top-of-a-white-table-a5MR3TYedPY');
+	background-image: url('https://source.unsplash.com/dvnG7cZH4WM');
   }
   
   .item-5 { 
-	background-image: url('https://unsplash.com/photos/a-couple-of-palm-trees-sitting-on-top-of-a-beach-OtWPrIvO7x0');
+	background-image: url('https://source.unsplash.com/hfNsHnY5vjM');
   }
-
+  
   .item-6 { 
-	background-image: url('https://unsplash.com/photos/a-waterfall-is-coming-out-of-the-side-of-a-mountain-H3WZ9EUOeXQ');
+	background-image: url('https://source.unsplash.com/t_ZdxJsE8iM');
   }
 
   .item-7 { 
-	background-image: url('https://unsplash.com/photos/an-overhead-view-of-a-building-with-a-wooden-floor-W2zFWo8Y-vU');
+	background-image: url('https://source.unsplash.com/D674O8rynlE');
   }
 
   .item-8 { 
-	background-image: url('https://unsplash.com/photos/a-building-with-a-clock-on-the-side-of-it-gCcmfCKHNAA');
+	background-image: url('https://source.unsplash.com/TMowCZE9AiI');
+  }
+
+  .item-9 { 
+	background-image: url('https://source.unsplash.com/UUVjTJxO1uc');
+  }
+
+  .item-10 { 
+	background-image: url('https://source.unsplash.com/h8McdDQJyvg');
   }
 
 
