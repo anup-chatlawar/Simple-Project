@@ -1,0 +1,57 @@
+html,body{
+	width: 100%;
+	height: 100%;
+  }
+  
+  .container{
+	padding: 0 auto;
+	margin: 0 auto;
+	width: 1140px;
+  }
+  
+  h1{
+	position: relative;
+	margin-bottom: 20px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 44px;
+	text-transform: uppercase;
+	color: #424242;
+	text-align: center;
+  }
+  
+  .gallery-wrap {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 50vh;
+	gap: 10px;
+	margin-top: 10px;
+  }
+  
+  .item {
+	flex: 1;
+	height: 100%;
+	background-position: center;
+	background-size: cover;
+	background-repeat: none;
+  }
+  
+  .item-1 { 
+	background-image: url('https://unsplash.com/photos/a-large-waterfall-with-snow-on-the-ground-DylWxXs6Vlo');
+  }
+  
+  .item-2 { 
+	background-image: url('https://unsplash.com/photos/a-large-building-with-a-glass-roof-and-columns-52TNzHnrkIg');
+  }
+  
+  .item-3 { 
+	background-image: url('https://unsplash.com/photos/a-building-with-a-subway-sign-on-the-front-of-it-3PDrWzk7aAs');
+  }
+  
+  .item-4 { 
+	background-image: url('https://unsplash.com/photos/a-couple-of-yellow-flowers-sitting-on-top-of-a-white-table-a5MR3TYedPY');
+  }
+  
+  .item-5 { 
+	background-image: url('https://unsplash.com/photos/a-couple-of-palm-trees-sitting-on-top-of-a-beach-OtWPrIvO7x0');
+  }
